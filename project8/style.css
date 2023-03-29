@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-weight: 300;
+    line-height:  1.4;
+    scroll-behavior: smooth;
+}
+
+a{
+ text-decoration: none;
+}
+
+body{
+    display: flex;
+}
+header{
+    border: 1px solid #ccc;
+    height: 100vh;
+}
+nav h1{
+    font-size: 22px;
+    padding: 15px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+}
+nav h1:hover{
+    background-color: gray;
+}
+nav ul li{
+    border:  1px solid #ccc;
+    padding: 10px;
+    color: black;
+}
+nav ul li:hover{
+  background-color: gray;
+}

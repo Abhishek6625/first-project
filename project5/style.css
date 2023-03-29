@@ -92,6 +92,7 @@ nav{
     display: flex;
     gap: 20px;
     justify-content: center;
+    overflow-x: auto;
 }
 .feature{
     display: flex;
@@ -129,6 +130,8 @@ nav{
    justify-content: space-evenly;
    align-items: center;
    margin: 20px 0px;
+   overflow-x: auto;
+
 }
 .item{
     background-color: aliceblue;
